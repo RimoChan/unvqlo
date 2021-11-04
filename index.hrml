@@ -1,0 +1,38 @@
+head:
+    link rel="stylesheet" href="https://synthetic.librian.net/synthetic.css";
+    link rel="stylesheet" href="1.css";
+    script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js":
+    script src="1.js":
+    title:
+        莉沫酱周边博物馆
+body.synth:
+    header.syn:
+        span.h:
+            莉沫酱周边博物馆
+        span:
+            a:
+                莉沫酱周边
+            |
+            a:
+                宝贵的东西
+    div#main:
+        div:
+            p:
+                在每年的Librian交换礼物节，群友们把自己宝贵的东西送给莉沫酱，就会收到莉沫酱送出的新产品。
+        template v-for="展品 in d":
+            hr;
+            div.品:
+                div:
+                    img.synth v-bind:src='展品.图';
+                div:   
+                    p.名字:
+                        {{展品.名字}}
+                    p:
+                        template v-for="z in 展品.字":
+                            {{z}}
+                            br;
+                div.单:
+                    button.synth:
+                       下单
+        div.尾:
+            © 2021 | Rimo | conception-license

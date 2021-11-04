@@ -1,0 +1,46 @@
+body {
+    font-size: 1.4vw;
+}
+header {
+    padding: 0.4vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h {
+    font-size: 175%;
+}
+img {
+    width: 10vw;
+    height: 10vw;
+}
+.品 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.品 img{
+    margin-right: 1vw;
+}
+.单 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.名字 {
+    font-size: 110%;
+}
+#main {
+    padding: 0vw 14vw;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+header a {
+    color: inherit;
+}
+.尾 {
+    padding: 1vw;
+    text-align: center;
+}
