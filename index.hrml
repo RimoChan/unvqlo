@@ -34,7 +34,7 @@ body.synth:
                             {{z}}
                             br;
                 div.单:
-                    button.synth:
-                       下单
+                    button.synth @click="位置 += 1":
+                       {{'上中下'[位置%3]}}单
         div.尾:
-            © 2021 | Rimo | conception-license
+            © 2022 | Rimo | conception-license

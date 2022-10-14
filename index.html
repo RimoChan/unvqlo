@@ -48,14 +48,14 @@
                     </p>
                 </div>
                 <div class='单'>
-                    <button class='synth'>
-                       下单
+                    <button class='synth' @click="位置 += 1">
+                       {{'上中下'[位置%3]}}单
                     </button>
                 </div>
             </div>
         </template>
         <div class='尾'>
-            © 2021 | Rimo | conception-license
+            © 2022 | Rimo | conception-license
         </div>
     </div>
 </body>
