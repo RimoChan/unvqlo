@@ -11,12 +11,6 @@ body.synth:
     header.syn:
         span.h:
             莉沫酱周边博物馆
-        span:
-            a:
-                莉沫酱周边
-            |
-            a:
-                宝贵的东西
     div#main:
         div:
             p:
